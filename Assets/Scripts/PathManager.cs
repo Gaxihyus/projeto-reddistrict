@@ -9,16 +9,6 @@ public class PathManager : MonoBehaviour
     public NodePathSO mainPath;
     public NodePathSO[] altPaths;
 
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
-        
-    }
-
     private void OnDrawGizmos()
     {
         // Caminho principal
